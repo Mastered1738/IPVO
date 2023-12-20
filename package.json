@@ -20,10 +20,11 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@nestjs/common": "^10.0.0",
+    "@nestjs/common": "^10.3.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/mongoose": "^10.0.2",
     "@nestjs/platform-express": "^10.0.0",
+    "execution-time": "^1.4.1",
     "mongodb": "^5.9.2",
     "mongoose": "^8.0.3",
     "reflect-metadata": "^0.1.13",
