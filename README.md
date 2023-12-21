@@ -69,6 +69,12 @@ sudo docker run -p 8080:3000 -d <yourusername>/nestjs
 ```
 ***
 
+***
+To stop the container
+```bash
+sudo docker stop <container ID>
+```
+***
 
 ### With Windows
 
