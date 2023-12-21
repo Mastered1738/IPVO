@@ -47,8 +47,11 @@ If you don't have it installed, got to [Docker website](https://docs.docker.com/
 ### With Linux
 
 When you've installed Docker open your terminal and do the following.
-1. Position yourself in the folder in which you've downloaded/cloned the repo.
- 
+
+Position yourself in the folder in which you've downloaded/cloned the repo.
+
+***
+Build the Docker image
 ```bash
 sudo docker build ./ipvo -t <yourusername>/nestjs 
 ```
