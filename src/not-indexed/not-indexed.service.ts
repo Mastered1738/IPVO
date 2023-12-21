@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
@@ -12,19 +13,45 @@ export class NotIndexedService {
   ) {}
 
   async getAllMovies(): Promise<Movie[]> {
-    return await this.movieModel.find();
+    const performance = executionTime();
+    performance.start();
+    const movies = await this.movieModel.find();
+    const results = performance.stop();
+    console.log(
+      'Time to get indexed (by nominations) movies in miliseconds: ',
+      results.time,
+    );
+    return movies;
   }
 
   async getMovieByTitle(title: string): Promise<Movie[]> {
-    return await this.movieModel.find({ title: title });
+    const performance = executionTime();
+    performance.start();
+    const movies = await this.movieModel.find({ title: title });
+    const results = performance.stop();
+    console.log(
+      'Time to get indexed (by nominations) movies in miliseconds: ',
+      results.time,
+    );
+    return movies;
   }
 
   async getMovieByNominations(): Promise<Movie[]> {
-    return await this.movieModel.find({
-      'awards.nominations': {
-        $gt: 1,
-      },
-    });
+    const performance = executionTime();
+    performance.start();
+    const movies = await this.movieModel
+      .find({
+        'awards.nominations': {
+          $gt: 1,
+        },
+      })
+      .hint('awards.nominations_1');
+    const results = performance.stop();
+    console.log(
+      'Time to get indexed (by nominations) movies in miliseconds: ',
+      results.time,
+    );
+    return movies;
   }
 
   async getMoviesAboveACertainYear(): Promise<Movie[]> {
@@ -37,7 +64,7 @@ export class NotIndexedService {
     });
     const results = performance.stop();
     console.log(
-      'Time to get not indexed movies in miliseconds: ',
+      'Time to get indexed (by year) movies in miliseconds: ',
       results.time,
     );
     return movies;
