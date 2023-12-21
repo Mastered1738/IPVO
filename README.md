@@ -33,7 +33,8 @@ The project is made with Nest and Docker.
 To test the project as easily as possible there are only need 2 tools: VSCode (or VIM, Neovim, ...) and Postman (or Insomnia).
 Postman/Insomnia is recommended only because it enables the user to test specific URL requests.
 
-NOTE: You don't need Postman/Insomnia, you can test the project without both. They're just recommended to ease the process of testing.
+NOTE 1: You don't need Postman/Insomnia, you can test the project without both. They're just recommended to ease the process of testing.
+NOTE 2: Since Postman is a big application it also takes time to load the data into Postman which sometimes increases the response time number. Postman gives the tester a clear and easy to use UI but it affects the actual response time. Please take that into consideration.
 
 ## Installation
 
@@ -77,6 +78,78 @@ sudo docker stop <container ID>
 ***
 
 ### With Windows
+
+The process with windows is basically the same as with Linux.
+The only difference is that you don't need the "sudo" command.
+
+***
+Example from my pc
+```bash
+PS C:\Users\omglo\Documents\GitHub\IPVO\ipvo> cd ..
+PS C:\Users\omglo\Documents\GitHub\IPVO> docker build .\ipvo\ -t vinko/nestjs
+```
+***
+
+### With Mac
+
+Idk how to use Mac terminals or Mac in general. If you have Mac you're on your own.
+But I do assume commands are the same or at least the principle about running the project is the same.
+
+## After the app has started running
+
+### Using Postman
+
+1. Enter Postman and check the following URLs
+***
+For the database with indexes
+- Get request localhost:8080/indexed/getAll
+- Post request localhost:8080/indexed/getMovieByTitle
+- Get request localhost:8080/indexed/getMovieByNominations
+- Get request localhost:8080/indexed/getMoviesAboveACertainYear
+***
+
+***
+For the database without indexes
+- Get request localhost:8080/not-indexed/getAll
+- Post request localhost:8080/not-indexed/getMovieByTitle
+- Get request localhost:8080/not-indexed/getMovieByNominations
+- Get request localhost:8080/not-indexed/getMoviesAboveACertainYear
+***
+
+2. After running whatever URL you've chosen you will see the response time of the query of the URL (e.g. 78ms) and the size of the payload (e.g. 20 MB)
+3. You can also see the payload itself in any format you want, JSON is recommended.
+
+Example from my PC inside Postman app with a given URL
+![image](https://github.com/Mastered1738/ipvo/assets/87418738/6417f6de-f21f-448b-bed5-edb13fd5ddce)
+
+NOTE: since Postman is a big application it also takes time to load the data into Postman which sometimes increases the response time number. Postman gives the tester a clear and easy to use UI but it affects the actual response time.
+
+### Without using Postman
+
+1. Run your browser and check the following URLs.
+
+***
+For the database with indexes
+- Get request localhost:8080/indexed/getAll
+- Post request localhost:8080/indexed/getMovieByTitle
+- Get request localhost:8080/indexed/getMovieByNominations
+- Get request localhost:8080/indexed/getMoviesAboveACertainYear
+***
+
+***
+For the database without indexes
+- Get request localhost:8080/not-indexed/getAll
+- Post request localhost:8080/not-indexed/getMovieByTitle
+- Get request localhost:8080/not-indexed/getMovieByNominations
+- Get request localhost:8080/not-indexed/getMoviesAboveACertainYear
+***
+
+2. After entering any URL give it some time to respond (sometimes even more than 20 seconds depending on your internet connection).
+3. To check the response speed look at the terminal inside VSCode (or any IDE's console your using). There should be a logged messege describing the response time in miliseconds.
+4. This is an example from my terminal
+```bash
+2023-12-21 22:50:42 Time to get indexed (by nominations) movies in miliseconds:  206.73747999999998
+```
 
 ## Support
 
