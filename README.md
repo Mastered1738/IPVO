@@ -48,8 +48,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author's university email - [Vinko Milotić](vinko.milotic@uniri.hr)
-- Author's private email - [Vinko Milotić](vinkomilotic632@gmail.com)
+- Author's university email - [vinko.milotic@uniri.hr]
+- Author's private email - [vinkomilotic632@gmail.com]
 
 ## License
 
