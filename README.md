@@ -31,7 +31,9 @@ The project is made with Nest and Docker.
 ## Recommended tools for testing the project
 
 To test the project as easily as possible there are only need 2 tools: VSCode (or VIM, Neovim, ...) and Postman (or Insomnia).
-Postman/Insomnia is recommended only because it enables the user to test specific URL d 
+Postman/Insomnia is recommended only because it enables the user to test specific URL requests.
+
+NOTE: You don't need Postman/Insomnia, you can test the project without both. They're just recommended to ease the process of testing.
 
 ## Installation
 
@@ -41,6 +43,31 @@ Download through the .zip file or clone the repo. Simple as that.
 
 To run the actual application make sure you have Docker installed.
 If you don't have it installed, got to [Docker website](https://docs.docker.com/get-docker/) and install Docker with the given tutorial depending on your operating system. 
+
+### With Linux
+
+When you've installed Docker open your terminal and do the following.
+1. Position yourself in the folder in which you've downloaded/cloned the repo.
+ 
+```bash
+sudo docker build ./ipvo -t <yourusername>/nestjs 
+```
+***
+To check if the Docker image is built run
+```bash
+sudo docker images
+```
+***
+
+***
+To start the container  
+```bash
+sudo docker run -p 8080:3000 -d <yourusername>/nestjs
+```
+***
+
+
+### With Windows
 
 ## Support
 
@@ -54,3 +81,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+This project is stritctly readonly and only UNIRI FIDIT students/professors are allowed to read this project. 
