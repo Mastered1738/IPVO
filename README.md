@@ -25,38 +25,22 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A university project about the difference between database queries with and without secondary indexes.
+The project is made with Nest and Docker.
+
+## Recommended tools for testing the project
+
+To test the project as easily as possible there are only need 2 tools: VSCode (or VIM, Neovim, ...) and Postman (or Insomnia).
+Postman/Insomnia is recommended only because it enables the user to test specific URL d 
 
 ## Installation
 
-```bash
-$ npm install
-```
+Download through the .zip file or clone the repo. Simple as that.
 
 ## Running the app
 
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+To run the actual application make sure you have Docker installed.
+If you don't have it installed, got to [Docker website](https://docs.docker.com/get-docker/) and install Docker with the given tutorial depending on your operating system. 
 
 ## Support
 
@@ -64,9 +48,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author's university email - [Vinko Milotić](vinko.milotic@uniri.hr)
+- Author's private email - [Vinko Milotić](vinkomilotic632@gmail.com)
 
 ## License
 
