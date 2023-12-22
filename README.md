@@ -30,7 +30,7 @@ The project is made with Nest and Docker.
 
 ## Recommended tools for testing the project
 
-To test the project as easily as possible there are only need 2 tools: VSCode (or VIM, Neovim, ...) and Postman (or Insomnia).
+To test the project as easily as possible there is only 1 tool need: VSCode (or VIM, Neovim, ...) 
 Postman/Insomnia is recommended only because it enables the user to test specific URL requests.
 
 NOTE 1: You don't need Postman/Insomnia, you can test the project without both. They're just recommended to ease the process of testing.
@@ -120,6 +120,7 @@ For the database without indexes
 3. You can also see the payload itself in any format you want, JSON is recommended.
 
 Example from my PC inside Postman app with a given URL
+
 ![image](https://github.com/Mastered1738/ipvo/assets/87418738/6417f6de-f21f-448b-bed5-edb13fd5ddce)
 
 NOTE: since Postman is a big application it also takes time to load the data into Postman which sometimes increases the response time number. Postman gives the tester a clear and easy to use UI but it affects the actual response time.
@@ -145,7 +146,7 @@ For the database without indexes
 ***
 
 2. After entering any URL give it some time to respond (sometimes even more than 20 seconds depending on your internet connection).
-3. To check the response speed look at the terminal inside VSCode (or any IDE's console your using). There should be a logged messege describing the response time in miliseconds.
+3. To check the response speed look at the terminal inside VSCode (or any IDE's console your using, or Docker Desktop if you're on Windows/Mac). There should be a logged messege describing the response time in miliseconds.
 4. This is an example from my terminal
 ```bash
 2023-12-21 22:50:42 Time to get indexed (by nominations) movies in miliseconds:  206.73747999999998
