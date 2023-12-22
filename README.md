@@ -86,16 +86,31 @@ E.g. Inside the indexed.module.ts file indexed.controller, indexed.service, movi
 
 ### Results from testing
 
+Since during testing my internet connection wasn't perfect please take these results and conclusion with a pinch of salt. To check directly some benchmark results check the "Benchmark Results" file inside the "src" folder. In the Mongo collection there are 21 300 JSON files which is good enough to do some pseudo-realistic benchmarks.
+
+Query using "movie title" index ---> This query would return only 1 file from the collection in the Mongo database
+Average response time: 38.419 ms
+
+Query using "number of movie nominations" index ---> This query would return about 60% of all files inside the collection in the Mongo database
+Average response time: 6023.5 ms
+
+Query using "year of movie publishing" index ---> This query would return about 80% of all files inside the collection in the Mongo database
+Average response time: 13727.4 ms
 
 
+Query WITHOUT using "movie title" index ---> This query would return only 1 file from the collection in the Mongo database
+Average response time: 56.3505 ms
+
+Query WITHOUT using "number of movie nominations" index ---> This query would return about 60% of all files inside the collection in the Mongo database
+Average response time: 7244.4 ms
+
+Query WITHOUT using "year of movie publishing" index   ---> This query would return about 80% of all files inside the collection in the Mongo database
+Average response time: 14673.25 ms
 
 
 ### Conclusion
 
-
-
-
-
+As you can see, generally speaking the benchmark results from the queries which were using indexes were faster by some margin. In programming every milisecond counts. But honestly, I thought the results would be even more different. I thought the indexing would dramatically improve the reading performances, but it didn't. It did improve a bit, but not enough to be "impressive". It needs to be noted that secondary indexes slow down the writing operations the database since they need to be updated every time something new is written. Secondary indexes are a tradeoff in which a database trades reading speed with writing speed. Making many secondary indexes without needing them will only slow down the database if the job of the database is to read more than write. Secondary indexes need to be used carefuly like any other thing in programming to get the best results in a database.
 
 ## Running the app
 
