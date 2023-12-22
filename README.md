@@ -40,6 +40,58 @@ NOTE 2: Since Postman is a big application it also takes time to load the data i
 
 Download through the .zip file or clone the repo. Simple as that.
 
+## Project architecture
+
+The project consist of 2 main parts: Nest framework and Docker. Docker is implemented with the Dockerfile.
+The Nest part is inside the ./src folder and hold many files. In the following part I will explain what means what.
+
+### The Nest part of the project
+
+This is the architecture of the "src" folder inside the project.
+```bash
+│   app.controller.ts
+│   app.module.ts
+│   app.service.ts
+│   main.ts
+│
+├───indexed
+│       indexed.controller.ts
+│       indexed.module.ts
+│       indexed.service.ts
+│       movies.model.ts
+│
+└───not-indexed
+        movies.model.ts
+        not-indexed.controller.ts
+        not-indexed.module.ts
+        not-indexed.service.ts
+```
+It is made of 3 parts: the main part, the indexed part and the not-indexed part. The main part is used to create connections to 2 Mongo databases where one has secondary indexes and the other does not. That is why one part is called "indexed" and "not-indexed" respectively.
+
+#### Database connection
+To check the database connection code go to app.module.ts.
+
+#### Schema and Model
+To see the schema and model code for a collection inside the Mongo databases go to movies.model.ts. Inside you will see that inside the "indexed" folder the movie schema and model have indexes while in the other they don't. That is the only difference in those models.
+
+#### Controllers and URLs
+To see the code used to create GET, POST requests got to not-indexed.controller.ts or indexed.controller.ts. Controllers in Nest are used to "control" incoming URL requests. All functions are asynchronous which helps the application to be much faster and simulate parallel function execution.
+
+#### Services and queries
+In case you want to see the actual queries go to not-indexed.service.ts or indexed.service.ts. In Nest services are used to query databases. In this project the ODM Mongoose is used to simplify querying. Functions are also asynchronous. 
+
+#### Modules
+Modules are used to detect which service, model, controller, connection, so on and so forth, are used for a specific part of the application. 
+E.g. Inside the indexed.module.ts file indexed.controller, indexed.service, movies.model are all imported and then through the indexed.module transfered to the main app.module which actually runs the application.
+
+### The what
+
+### The how
+
+### Results from testing
+
+### Conclusion
+
 ## Running the app
 
 To run the actual application make sure you have Docker installed.
