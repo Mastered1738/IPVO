@@ -1,4 +1,4 @@
-INDEXED GETMOVIEBYTITLE
+INDEXED BY TITLE
 2023-12-22 21:23:16 Time to get indexed (by title) movies in miliseconds:  42.402349
 2023-12-22 21:23:38 Time to get indexed (by title) movies in miliseconds:  32.384914
 2023-12-22 21:23:40 Time to get indexed (by title) movies in miliseconds:  61.031327999999995
@@ -22,7 +22,7 @@ INDEXED GETMOVIEBYTITLE
 
 Average response time: 38.419 ms 
 
-NOT-INDEXED GETMOVIEBYTITLE
+NOT-INDEXED BY TITLE
 2023-12-22 21:26:46 Time to get NOT indexed (by title) movies in miliseconds:  214.917353
 2023-12-22 21:26:48 Time to get NOT indexed (by title) movies in miliseconds:  50.559411999999995
 2023-12-22 21:26:49 Time to get NOT indexed (by title) movies in miliseconds:  52.673232999999996
@@ -135,4 +135,4 @@ INDEXED BY YEAR
 2023-12-22 23:20:40 Time to get indexed (by year) movies in miliseconds:  11613.187685
 2023-12-22 23:20:58 Time to get indexed (by year) movies in miliseconds:  16359.063413
 2023-12-22 23:21:11 Time to get indexed (by year) movies in miliseconds:  11737.187574
-Average response time: 1372.74 ms
+Average response time: 13727.4 ms
