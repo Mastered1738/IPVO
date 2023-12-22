@@ -10,7 +10,7 @@ export class IndexedService {
   constructor(
     @InjectModel(Movie.name, 'indexedDB')
     private readonly movieModel: Model<Movie>,
-  ) {}
+  ) { }
 
   async getAllMovies(): Promise<Movie[]> {
     const performance = executionTime();
@@ -18,7 +18,7 @@ export class IndexedService {
     const movies = await this.movieModel.find();
     const results = performance.stop();
     console.log(
-      'Time to get indexed (by nominations) movies in miliseconds: ',
+      'Time to get indexed movies in miliseconds: ',
       results.time,
     );
     return movies;
@@ -30,7 +30,7 @@ export class IndexedService {
     const movies = await this.movieModel.find({ title: title });
     const results = performance.stop();
     console.log(
-      'Time to get indexed (by nominations) movies in miliseconds: ',
+      'Time to get indexed (by title) movies in miliseconds: ',
       results.time,
     );
     return movies;

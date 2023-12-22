@@ -1,0 +1,138 @@
+INDEXED GETMOVIEBYTITLE
+2023-12-22 21:23:16 Time to get indexed (by title) movies in miliseconds:  42.402349
+2023-12-22 21:23:38 Time to get indexed (by title) movies in miliseconds:  32.384914
+2023-12-22 21:23:40 Time to get indexed (by title) movies in miliseconds:  61.031327999999995
+2023-12-22 21:23:42 Time to get indexed (by title) movies in miliseconds:  71.312232
+2023-12-22 21:23:43 Time to get indexed (by title) movies in miliseconds:  106.121552
+2023-12-22 21:23:44 Time to get indexed (by title) movies in miliseconds:  30.896894999999997
+2023-12-22 21:23:46 Time to get indexed (by title) movies in miliseconds:  29.98338
+2023-12-22 21:23:47 Time to get indexed (by title) movies in miliseconds:  32.942827
+2023-12-22 21:23:48 Time to get indexed (by title) movies in miliseconds:  29.552773
+2023-12-22 21:23:49 Time to get indexed (by title) movies in miliseconds:  30.867293999999998
+2023-12-22 21:23:51 Time to get indexed (by title) movies in miliseconds:  31.2471
+2023-12-22 21:23:52 Time to get indexed (by title) movies in miliseconds:  32.880026
+2023-12-22 21:23:53 Time to get indexed (by title) movies in miliseconds:  30.652832
+2023-12-22 21:23:55 Time to get indexed (by title) movies in miliseconds:  38.024936
+2023-12-22 21:23:56 Time to get indexed (by title) movies in miliseconds:  31.305141
+2023-12-22 21:23:57 Time to get indexed (by title) movies in miliseconds:  39.354454
+2023-12-22 21:23:58 Time to get indexed (by title) movies in miliseconds:  36.018308
+2023-12-22 21:23:59 Time to get indexed (by title) movies in miliseconds:  31.288639999999997
+2023-12-22 21:24:00 Time to get indexed (by title) movies in miliseconds:  30.193405
+2023-12-22 21:24:01 Time to get indexed (by title) movies in miliseconds:  29.301588
+
+Average response time: 38.419 ms 
+
+NOT-INDEXED GETMOVIEBYTITLE
+2023-12-22 21:26:46 Time to get NOT indexed (by title) movies in miliseconds:  214.917353
+2023-12-22 21:26:48 Time to get NOT indexed (by title) movies in miliseconds:  50.559411999999995
+2023-12-22 21:26:49 Time to get NOT indexed (by title) movies in miliseconds:  52.673232999999996
+2023-12-22 21:26:49 Time to get NOT indexed (by title) movies in miliseconds:  50.75645
+2023-12-22 21:26:50 Time to get NOT indexed (by title) movies in miliseconds:  53.231029
+2023-12-22 21:26:51 Time to get NOT indexed (by title) movies in miliseconds:  49.849157999999996
+2023-12-22 21:26:52 Time to get NOT indexed (by title) movies in miliseconds:  49.823057999999996
+2023-12-22 21:26:53 Time to get NOT indexed (by title) movies in miliseconds:  49.935556999999996
+2023-12-22 21:26:54 Time to get NOT indexed (by title) movies in miliseconds:  49.621339
+2023-12-22 21:26:55 Time to get NOT indexed (by title) movies in miliseconds:  50.229144999999995
+2023-12-22 21:26:55 Time to get NOT indexed (by title) movies in miliseconds:  50.587942999999996
+2023-12-22 21:26:56 Time to get NOT indexed (by title) movies in miliseconds:  51.078041
+2023-12-22 21:26:57 Time to get NOT indexed (by title) movies in miliseconds:  51.701673
+2023-12-22 21:26:58 Time to get NOT indexed (by title) movies in miliseconds:  49.546983
+2023-12-22 21:26:59 Time to get NOT indexed (by title) movies in miliseconds:  49.935781
+2023-12-22 21:26:59 Time to get NOT indexed (by title) movies in miliseconds:  49.268583
+2023-12-22 21:27:00 Time to get NOT indexed (by title) movies in miliseconds:  51.325475
+2023-12-22 21:27:01 Time to get NOT indexed (by title) movies in miliseconds:  50.710378
+2023-12-22 21:27:01 Time to get NOT indexed (by title) movies in miliseconds:  50.21478
+2023-12-22 21:27:02 Time to get NOT indexed (by title) movies in miliseconds:  51.828072999999996
+Average response time: 56.3505 ms
+
+INDEXED BY NOMINATION
+2023-12-22 22:37:53 Time to get indexed (by nominations) movies in miliseconds:  6116.739972
+2023-12-22 22:38:04 Time to get indexed (by nominations) movies in miliseconds:  9357.587196
+2023-12-22 22:38:14 Time to get indexed (by nominations) movies in miliseconds:  9019.718262
+2023-12-22 22:38:21 Time to get indexed (by nominations) movies in miliseconds:  6290.81887
+2023-12-22 22:38:28 Time to get indexed (by nominations) movies in miliseconds:  5680.39744
+2023-12-22 22:38:34 Time to get indexed (by nominations) movies in miliseconds:  5306.980463
+2023-12-22 22:38:41 Time to get indexed (by nominations) movies in miliseconds:  6432.515135
+2023-12-22 22:38:49 Time to get indexed (by nominations) movies in miliseconds:  6015.548457
+2023-12-22 22:38:55 Time to get indexed (by nominations) movies in miliseconds:  5349.819031
+2023-12-22 22:39:01 Time to get indexed (by nominations) movies in miliseconds:  5395.532563
+2023-12-22 22:39:08 Time to get indexed (by nominations) movies in miliseconds:  5252.979152
+2023-12-22 22:39:16 Time to get indexed (by nominations) movies in miliseconds:  7370.324551
+2023-12-22 22:39:25 Time to get indexed (by nominations) movies in miliseconds:  8330.39744
+2023-12-22 22:39:32 Time to get indexed (by nominations) movies in miliseconds:  5836.244963
+2023-12-22 22:39:38 Time to get indexed (by nominations) movies in miliseconds:  5493.188704
+2023-12-22 22:39:45 Time to get indexed (by nominations) movies in miliseconds:  5400.136466
+2023-12-22 22:39:51 Time to get indexed (by nominations) movies in miliseconds:  5479.772644
+2023-12-22 22:39:58 Time to get indexed (by nominations) movies in miliseconds:  6021.350619
+2023-12-22 22:40:05 Time to get indexed (by nominations) movies in miliseconds:  6007.486208
+2023-12-22 22:40:12 Time to get indexed (by nominations) movies in miliseconds:  5967.541058
+Average response time: 6023.5 ms
+
+NOT-INDEXED BY NOMINATION
+2023-12-22 22:47:37 Time to get NOT indexed (by nominations) movies in miliseconds:  6587.016532
+2023-12-22 22:47:46 Time to get NOT indexed (by nominations) movies in miliseconds:  7880.422907
+2023-12-22 22:47:53 Time to get NOT indexed (by nominations) movies in miliseconds:  6121.510224
+2023-12-22 22:48:00 Time to get NOT indexed (by nominations) movies in miliseconds:  5967.693081
+2023-12-22 22:48:07 Time to get NOT indexed (by nominations) movies in miliseconds:  5632.482389
+2023-12-22 22:48:13 Time to get NOT indexed (by nominations) movies in miliseconds:  5429.942235
+2023-12-22 22:48:20 Time to get NOT indexed (by nominations) movies in miliseconds:  6153.9177
+2023-12-22 22:48:28 Time to get NOT indexed (by nominations) movies in miliseconds:  6867.825777
+2023-12-22 22:48:35 Time to get NOT indexed (by nominations) movies in miliseconds:  6719.768072
+2023-12-22 22:48:43 Time to get NOT indexed (by nominations) movies in miliseconds:  6389.660342
+2023-12-22 22:48:54 Time to get NOT indexed (by nominations) movies in miliseconds:  10665.589496
+2023-12-22 22:49:01 Time to get NOT indexed (by nominations) movies in miliseconds:  5664.644437
+2023-12-22 22:49:07 Time to get NOT indexed (by nominations) movies in miliseconds:  5364.257368
+2023-12-22 22:49:13 Time to get NOT indexed (by nominations) movies in miliseconds:  5230.178874
+2023-12-22 22:49:20 Time to get NOT indexed (by nominations) movies in miliseconds:  5439.81025
+2023-12-22 22:49:26 Time to get NOT indexed (by nominations) movies in miliseconds:  6015.592776
+2023-12-22 22:49:33 Time to get NOT indexed (by nominations) movies in miliseconds:  5674.791473
+2023-12-22 22:49:39 Time to get NOT indexed (by nominations) movies in miliseconds:  5366.767737
+2023-12-22 22:49:46 Time to get NOT indexed (by nominations) movies in miliseconds:  5861.712326
+2023-12-22 22:49:54 Time to get NOT indexed (by nominations) movies in miliseconds:  6644.355191
+Average response time: 7244.4 ms
+
+NOT-INDEXED BY YEAR
+2023-12-22 23:07:35 Time to get NOT indexed (by year) movies in miliseconds:  11015.219898
+2023-12-22 23:07:48 Time to get NOT indexed (by year) movies in miliseconds:  12118.12995
+2023-12-22 23:08:03 Time to get NOT indexed (by year) movies in miliseconds:  13335.24659
+2023-12-22 23:08:17 Time to get NOT indexed (by year) movies in miliseconds:  12731.708802
+2023-12-22 23:08:31 Time to get NOT indexed (by year) movies in miliseconds:  11679.610783
+2023-12-22 23:08:48 Time to get NOT indexed (by year) movies in miliseconds:  15200.594125
+2023-12-22 23:09:00 Time to get NOT indexed (by year) movies in miliseconds:  10625.900957
+2023-12-22 23:09:16 Time to get NOT indexed (by year) movies in miliseconds:  14240.709419
+2023-12-22 23:09:31 Time to get NOT indexed (by year) movies in miliseconds:  14034.79394
+2023-12-22 23:09:49 Time to get NOT indexed (by year) movies in miliseconds:  16159.829812
+2023-12-22 23:10:07 Time to get NOT indexed (by year) movies in miliseconds:  15791.495082
+2023-12-22 23:10:21 Time to get NOT indexed (by year) movies in miliseconds:  12671.812163999999
+2023-12-22 23:10:35 Time to get NOT indexed (by year) movies in miliseconds:  12520.196763
+2023-12-22 23:10:49 Time to get NOT indexed (by year) movies in miliseconds:  12751.967927
+2023-12-22 23:11:03 Time to get NOT indexed (by year) movies in miliseconds:  12561.891332
+2023-12-22 23:11:18 Time to get NOT indexed (by year) movies in miliseconds:  12954.582878
+2023-12-22 23:11:30 Time to get NOT indexed (by year) movies in miliseconds:  10658.601926
+2023-12-22 23:11:44 Time to get NOT indexed (by year) movies in miliseconds:  12772.355789
+2023-12-22 23:11:58 Time to get NOT indexed (by year) movies in miliseconds:  11577.445983
+2023-12-22 23:12:16 Time to get NOT indexed (by year) movies in miliseconds:  16248.03107
+Average response time: 14673.25 ms
+
+INDEXED BY YEAR
+2023-12-22 23:14:40 Time to get indexed (by year) movies in miliseconds:  12821.341914
+2023-12-22 23:14:52 Time to get indexed (by year) movies in miliseconds:  10702.653171
+2023-12-22 23:15:04 Time to get indexed (by year) movies in miliseconds:  10406.71569
+2023-12-22 23:15:18 Time to get indexed (by year) movies in miliseconds:  11847.57034
+2023-12-22 23:15:32 Time to get indexed (by year) movies in miliseconds:  12662.169398
+2023-12-22 23:15:52 Time to get indexed (by year) movies in miliseconds:  19084.544074
+2023-12-22 23:16:06 Time to get indexed (by year) movies in miliseconds:  11936.105733
+2023-12-22 23:16:18 Time to get indexed (by year) movies in miliseconds:  11166.870588
+2023-12-22 23:16:31 Time to get indexed (by year) movies in miliseconds:  10556.934031
+2023-12-22 23:16:43 Time to get indexed (by year) movies in miliseconds:  10579.674778
+2023-12-22 23:17:07 Time to get indexed (by year) movies in miliseconds:  22255.112089
+2023-12-22 23:17:21 Time to get indexed (by year) movies in miliseconds:  13246.432439
+2023-12-22 23:17:36 Time to get indexed (by year) movies in miliseconds:  12601.603499
+2023-12-22 23:19:43 Time to get indexed (by year) movies in miliseconds:  15376.409185
+2023-12-22 23:19:58 Time to get indexed (by year) movies in miliseconds:  13242.563335
+2023-12-22 23:20:12 Time to get indexed (by year) movies in miliseconds:  12897.707299
+2023-12-22 23:20:26 Time to get indexed (by year) movies in miliseconds:  12867.948504
+2023-12-22 23:20:40 Time to get indexed (by year) movies in miliseconds:  11613.187685
+2023-12-22 23:20:58 Time to get indexed (by year) movies in miliseconds:  16359.063413
+2023-12-22 23:21:11 Time to get indexed (by year) movies in miliseconds:  11737.187574
+Average response time: 1372.74 ms

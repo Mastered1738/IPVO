@@ -10,7 +10,7 @@ export class NotIndexedService {
   constructor(
     @InjectModel(Movie.name, 'notindexedDB')
     private readonly movieModel: Model<Movie>,
-  ) {}
+  ) { }
 
   async getAllMovies(): Promise<Movie[]> {
     const performance = executionTime();
@@ -18,7 +18,7 @@ export class NotIndexedService {
     const movies = await this.movieModel.find();
     const results = performance.stop();
     console.log(
-      'Time to get indexed (by nominations) movies in miliseconds: ',
+      'Time to get NOT indexed movies in miliseconds: ',
       results.time,
     );
     return movies;
@@ -30,7 +30,7 @@ export class NotIndexedService {
     const movies = await this.movieModel.find({ title: title });
     const results = performance.stop();
     console.log(
-      'Time to get indexed (by nominations) movies in miliseconds: ',
+      'Time to get NOT indexed (by title) movies in miliseconds: ',
       results.time,
     );
     return movies;
@@ -45,10 +45,9 @@ export class NotIndexedService {
           $gt: 1,
         },
       })
-      .hint('awards.nominations_1');
     const results = performance.stop();
     console.log(
-      'Time to get indexed (by nominations) movies in miliseconds: ',
+      'Time to get NOT indexed (by nominations) movies in miliseconds: ',
       results.time,
     );
     return movies;
@@ -64,7 +63,7 @@ export class NotIndexedService {
     });
     const results = performance.stop();
     console.log(
-      'Time to get indexed (by year) movies in miliseconds: ',
+      'Time to get NOT indexed (by year) movies in miliseconds: ',
       results.time,
     );
     return movies;
