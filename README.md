@@ -84,13 +84,18 @@ In case you want to see the actual queries go to not-indexed.service.ts or index
 Modules are used to detect which service, model, controller, connection, so on and so forth, are used for a specific part of the application. 
 E.g. Inside the indexed.module.ts file indexed.controller, indexed.service, movies.model are all imported and then through the indexed.module transfered to the main app.module which actually runs the application.
 
-### The what
-
-### The how
-
 ### Results from testing
 
+
+
+
+
 ### Conclusion
+
+
+
+
+
 
 ## Running the app
 
