@@ -50,12 +50,14 @@ If you don't have it installed, got to [Docker website](https://docs.docker.com/
 When you've installed Docker open your terminal and do the following.
 
 Position yourself in the folder in which you've downloaded/cloned the repo.
+NOTE: The <name> part you can name it any way you want.
 
 ***
 Build the Docker image
 ```bash
-sudo docker build ./ipvo -t <yourusername>/nestjs 
+sudo docker build ./ipvo -t <name>/nestjs 
 ```
+e.g. sudo docker build ./ -t vinko/nestjs
 ***
 To check if the Docker image is built run
 ```bash
@@ -66,7 +68,7 @@ sudo docker images
 ***
 To start the container  
 ```bash
-sudo docker run -p 8080:3000 -d <yourusername>/nestjs
+sudo docker run -p 8080:3000 -d <name>/nestjs
 ```
 ***
 
